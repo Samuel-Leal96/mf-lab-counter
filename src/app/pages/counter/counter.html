@@ -1,1 +1,13 @@
-<p>counter works!</p>
+<div class="card">
+  <h2>🧩 Microfrontend Counter</h2>
+
+  <div class="value">
+    {{ count() }}
+  </div>
+
+  <div class="buttons">
+    <button (click)="decrement()">➖</button>
+    <button (click)="reset()">♻️</button>
+    <button (click)="increment()">➕</button>
+  </div>
+</div>
